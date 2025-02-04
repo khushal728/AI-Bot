@@ -5,7 +5,7 @@ subprocess.run(["pip", "install", "google-generativeai"])
 import google.generativeai as genai
 import pdfplumber
 import textwrap
-from duckduckgo_search import DDGS
+
 from io import BytesIO
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
