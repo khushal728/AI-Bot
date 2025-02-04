@@ -84,7 +84,7 @@ def export_chat_as_pdf():
 # ---- Streamlit UI ----
 st.set_page_config(page_title="Summarizer AI Chatbot", page_icon="📝", layout="centered")
 
-st.title("💬 AI Chatbot & Summarizer")
+st.title("💬 YOUR AI ")
 st.write("Chat with the AI! Upload a PDF or enter text for summarization.")
 
 # Sidebar for PDF Summarizer
