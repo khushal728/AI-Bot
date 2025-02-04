@@ -85,7 +85,7 @@ def export_chat_as_pdf():
 st.set_page_config(page_title="Summarizer AI Chatbot", page_icon="📝", layout="centered")
 
 st.title("💬 YOUR AI ")
-st.write("Chat with the AI! Upload a PDF or enter text for summarization.")
+st.write("Chat with the Bot!")
 
 # Sidebar for PDF Summarizer
 with st.sidebar:
