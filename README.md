@@ -45,13 +45,7 @@ streamlit run app.py
 
 Chat: Type your question and press Enter.
 
-Web Search: Use the "Web Search" button.
-
 PDF Upload: Upload a PDF and summarize it.
-
-Voice Input & Output: Speak and listen to responses.
-
-Dark Mode: Toggle dark mode.
 
 Export Chat: Download chat as TXT or PDF.
 
