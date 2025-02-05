@@ -1,5 +1,7 @@
 # AI-Bot
 
+Try It :- https://your-ai.streamlit.app/
+
 ## 📌 Overview
 
 This is an AI-powered chatbot and PDF summarization tool built with Streamlit. It allows users to interact with an AI model, summarize text or PDFs, perform web searches, and export chat history.
