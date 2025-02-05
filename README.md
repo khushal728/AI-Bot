@@ -18,8 +18,10 @@ This is an AI-powered chatbot and PDF summarization tool built with Streamlit. I
 
 1) Clone the repository:
    
-   ```git clone https://github.com/your-repo/ai-chatbot.git cd ai-chatbot```
-2) Create a virtual environment (Optional but recommended):
+   ```
+   git clone https://github.com/your-repo/ai-chatbot.git cd ai-chatbot
+   ```
+3) Create a virtual environment (Optional but recommended):
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
