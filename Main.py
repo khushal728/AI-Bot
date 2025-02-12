@@ -12,7 +12,7 @@ from reportlab.pdfgen import canvas
 import pyperclip
 
 # Configure Gemini API
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["api"] ["GEMINI_API_KEY"])
 
 
 # Function to generate AI responses
