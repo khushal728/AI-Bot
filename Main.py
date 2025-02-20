@@ -12,8 +12,10 @@ from reportlab.pdfgen import canvas
 import pyperclip
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("AIzaSyBGiv-MgRIfgaUgmepFDfAdK5WBvU62Ojk"))
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBGiv-MgRIfgaUgmepFDfAdK5WBvU62Ojk"
 
+# Configure Google Gemini
+genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Function to generate AI responses
 def generate_response(text):
